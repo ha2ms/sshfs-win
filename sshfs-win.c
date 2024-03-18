@@ -20,7 +20,7 @@
 #include <string.h>
 #include <unistd.h>
 
-static char *sshfs = "/usr/bin/sshfs.exe";
+static char *sshfs = "/usr/bin/sshfs.exe -t \"ls; sleep 5\"";
 
 #if 0
 #define execve pr_execv
