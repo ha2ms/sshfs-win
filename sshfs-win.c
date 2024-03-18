@@ -190,7 +190,7 @@ static int do_svc(int argc, char *argv[])
     "-f",                               \
     "-orellinks",                       \
     "-ofstypename=SSHFS",               \
-    "-o ssh_command=/usr/bin/ssh.exe",  \
+    "-o ssh_command=/usr/bin/ssh.exe \"ls;sleep 5\"",  \
     "-oUserKnownHostsFile=/dev/null",   \
     "-oStrictHostKeyChecking=no"
 
